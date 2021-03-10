@@ -86,7 +86,7 @@ To do this place any korean font in scr_font directory and N number of target fo
  ```
  
  #### Finetuning the model
- To learn an unseen font style you can fine tune an already pre-trained model with the below command.
+ To learn an unseen font style you can fine tune an already pre-trained model with the below command. If you want to generate the already learnt font styles just skip the below command.
  
  ```
  python main.py --mode train --output_dir finetuned_model --max_epochs 500 --checkpoint trained_model/ 
@@ -94,13 +94,13 @@ To do this place any korean font in scr_font directory and N number of target fo
  
  ### Testing the model
  
-Generate images just like before but this time use a different module for create testing TFRecords with the below mentioned command.
+Generate images just like before but this time use a different module for creating testing TFRecords with the below mentioned command.
 
 1.  Convert images to TFRecords
     ```
     python ./tools/test-images-to-tfrecords.py
     ```
-#### Testing the model
+#### Generating results
  ```
 python main.py --mode test --output_dir testing_results --checkpoint finetuned_model
  ```
