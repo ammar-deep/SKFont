@@ -107,7 +107,7 @@ python main.py --mode test --output_dir testing_results --checkpoint finetuned_m
 
 ## Acknowledgements
 
-This code is inspired by the [pix2pix](https://github.com/affinelayer/pix2pix-tensorflow).
+This code is inspired by the [pix2pix tensorflow](https://github.com/affinelayer/pix2pix-tensorflow) project.
 
 Special thanks to the following works for sharing their code and dataset.
 
