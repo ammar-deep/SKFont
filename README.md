@@ -104,3 +104,20 @@ Generate images just like before but this time use a different module for creati
  ```
 python main.py --mode test --output_dir testing_results --checkpoint finetuned_model
  ```
+
+## Acknowledgements
+
+This code is inspired by the [pix2pix](https://github.com/affinelayer/pix2pix-tensorflow).
+
+Special thanks to the following works for sharing their code and dataset.
+
+- [tensorflow-hangul-recognition](https://github.com/IBM/tensorflow-hangul-recognition)
+- [pix2pix](https://github.com/affinelayer/pix2pix-tensorflow)
+
+## Citation
+
+Citation will be added soon. Please cite our work if you like it. 
+
+## Copyright
+
+The code and other helping modules are only allowed for PERSONAL and ACADEMIC usage.
