@@ -4,7 +4,7 @@
 
 This is the Tensorflow implementation of the **SKFont: Skeleton-Driven Korean Font Synthesis with Conditional Deep Adversarial Networks**.
 
-[paper will be available soon](https://github.com/ammar-deep)
+[paper will be available soon](https://github.com/ammar-deep/SKFont/blob/main/README.md)
 
 ## Abstract
 Will be added soon
