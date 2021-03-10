@@ -77,3 +77,30 @@ To do this place any korean font in scr_font directory and N number of target fo
     ```
     python ./tools/images-to-tfrecords.py
     ```
+    
+ ### Training the model
+ 
+ #### Pre-training the model
+ ```
+ python main.py --mode train --output_dir trained_model --max_epochs 25 
+ ```
+ 
+ #### Finetuning the model
+ To learn an unseen font style you can fine tune an already pre-trained model with the below command.
+ 
+ ```
+ python main.py --mode train --output_dir finetuned_model --max_epochs 500 --checkpoint trained_model/ 
+ ```
+ 
+ ### Testing the model
+ 
+Generate images just like before but this time use a different module for create testing TFRecords with the below mentioned command.
+
+1.  Convert images to TFRecords
+    ```
+    python ./tools/test-images-to-tfrecords.py
+    ```
+#### Testing the model
+ ```
+python main.py --mode test --output_dir testing_results --checkpoint finetuned_model
+ ```
