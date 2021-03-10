@@ -42,12 +42,17 @@ Our model consists of three sub models namely F2F-F2S-S2F. For each model we hav
 To do this place any korean font in scr_font directory and N number of target fonts in the trg_font directory. Then run the below commands for data preprocessing.
 
 1. Generate Source font images
+
     ```python ./tools/src-font-image-generator.py```
 2. Generate Target font images
+
     ```python ./tools/trg-font-image-generator.py```
 3. Generate Target font skeleton images
+
     ```python ./tools/trg-skeleton-image-generator.py```
 4. Combine source, target, and target skeletons
+
     ```python ./tools/combine_images.py --input_dir src-image-data/images --b_dir trg-image-data/images --c_dir skel-image-data/images --operation combine```
 5. Convert images to TFRecords
-```python ./tools/images-to-tfrecords.py```
+
+    ```python ./tools/images-to-tfrecords.py```
