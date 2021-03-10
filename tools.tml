@@ -1,0 +1,13 @@
+ # conda create --name tensorflow-cpu python=3.6.8
+ # conda install nb_conda
+ # conda install -c anaconda  tensorflow-gpu=1.13.1
+ # conda env update --file tools.yml
+dependencies:
+    - scikit-learn
+    - scipy
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - requests
+    - h5py
+    - pyyaml
