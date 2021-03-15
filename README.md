@@ -12,16 +12,16 @@ Will be added soon
 ## Model Architecture
 ![Architecture](imgs/architecture.png)
 
-## Some Results
+<!-- ## Some Results
 
-### SKFont results on Gothic and Ming font styles
+<!--### SKFont results on Gothic and Ming font styles
 ![comparison](imgs/SKFont_results_more.png)
 
-### SKFont results on unseen cross languages
+<!--### SKFont results on unseen cross languages
 ![cross_languae](imgs/cross_language.png)
 
-### SKFont results on cursive font styles
-![cross_languae](imgs/cursive.png)
+<!--### SKFont results on cursive font styles
+![cross_languae](imgs/cursive.png) -->
 
 ## Prerequisites
 
