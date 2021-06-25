@@ -116,7 +116,9 @@ Special thanks to the following works for sharing their code and dataset.
 
 ## Citation
 
-Citation will be added soon. Please cite our work if you like it. 
+Please cite our work if you like it.
+
+Ko, D.H., Hassan, A.U., Suk, J. et al. SKFont: skeleton-driven Korean font generator with conditional deep adversarial networks. IJDAR (2021). https://doi.org/10.1007/s10032-021-00374-4
 
 ## Copyright
 
