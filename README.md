@@ -4,24 +4,24 @@
 
 This is the Tensorflow implementation of the **SKFont: Skeleton-Driven Korean Font Synthesis with Conditional Deep Adversarial Networks**.
 
-[paper will be available soon](https://github.com/ammar-deep/SKFont/blob/main/README.md)
+[paper](https://link.springer.com/article/10.1007%2Fs10032-021-00374-4)
 
 ## Abstract
-Will be added soon
+In our research, we study the problem of font synthesis using an end-to-end conditional deep adversarial network with a small sample of Korean characters (Hangul). Hangul comprises of 11,172 characters and is composed by writing in multiple placement patterns. Traditionally, font design has required heavy-loaded human labor, easily taking one year to finish one style set. Even with the help of programmable approaches, it still takes a long time and cannot escape the limitations around the freedom to change parameters. Many trials have been attempted in deep neural network areas to generate characters without any human intervention. Our research focuses on an end-to-end deep learning model, the Skeleton-Driven Font generator (SKFont): when given 114 samples, the system automatically generates the rest of the characters in the same given font style. SKFont involves three steps: First, it generates complete target font characters by observing 114 target characters. Then, it extracts the skeletons (structures) of the synthesized characters obtained from the first step. This process drives the system to sustain the main structure of the characters throughout the whole generation processes. Finally, it transfers the style of the target font onto these learned structures. Our study resolves long overdue shortfalls such as blurriness, breaking, and a lack of delivery of delicate shapes and styles by using the ‘skeleton-driven’ conditional deep adversarial network. Qualitative and quantitative comparisons with the state-of-the-art methods demonstrate the superiority of the proposed SKFont method.
 
 ## Model Architecture
 ![Architecture](imgs/architecture.png)
 
-<!-- ## Some Results
+ ## Some Results
 
-<!--### SKFont results on Gothic and Ming font styles
+### SKFont results on Gothic and Ming font styles
 ![comparison](imgs/SKFont_results_more.png)
 
-<!--### SKFont results on unseen cross languages
+### SKFont results on unseen cross languages
 ![cross_languae](imgs/cross_language.png)
 
-<!--### SKFont results on cursive font styles
-![cross_languae](imgs/cursive.png) -->
+### SKFont results on cursive font styles
+![cross_languae](imgs/cursive.png)
 
 ## Prerequisites
 
