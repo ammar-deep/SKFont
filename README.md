@@ -51,7 +51,7 @@ In our research, we study the problem of font synthesis using an end-to-end cond
 
 ### Datasets
 Our model consists of three sub models namely F2F-F2S-S2F. For each model we have to prepare a paired dataset. i.e. a source to target font paired dataset, a target font to corresponing skeleton dataset, and a target skeleton to corresponding font dataset. 
-To do this place any korean font in scr_font directory and N number of target fonts in the trg_font directory. Then run the below commands for data preprocessing.
+To do this place any korean font in src_font directory and N number of target fonts in the trg_font directory. Then run the below commands for data preprocessing.
 
 1. Generate Source font images
     ```
